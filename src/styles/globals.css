@@ -1,12 +1,8 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-body {
+/* body {
   width: 100vw;
   height: 100vh;
 
@@ -24,11 +20,10 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 20px;
-  /* padding: 20px, 30px, 20px, 30px; */
   border: solid 3px black;
   height: fit-content;
   height: 100%;
-  width: 50vw;
+  width: 30vw;
 }
 #header {
   color: red;
@@ -65,4 +60,17 @@ body {
 #price {
   font-size: 18px;
   margin-left: 40px;
+} */
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.topLeftOut {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: fit-content;
 }
